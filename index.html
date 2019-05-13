@@ -11,6 +11,24 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        
+        <style>
+            html, body {
+                height: 100%
+            }
+            .bg-gray {
+                background-color: rgb(204, 204, 204);
+            }
+            /*
+            .bg-img-typing {
+                background-image: url("home2.jpg");
+                background-size: cover;
+                background-repeat: repeat;
+                background-position: center;
+            }
+            */
+        </style>
+    
     </head>
     
     <body class="bg-light">
@@ -18,142 +36,60 @@
         <header class="navbar fixed-top bg-dark row text-right" style="display: inline">
 
             <!-- Default dropleft button -->
-            <div class="btn-group dropleft">
+            <div class="btn-group dropdown mr-3">
                 <button type="button" class="btn text-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-bars fa-lg"></i>
+                    <i class="fas fa-bars fa-2x"></i>
                 </button>
-                <div class="dropdown-menu text-center">
-                    <a href="index.html">One</a>
+                <div class="dropdown-menu dropdown-menu-right text-center mt-2" style="background-color: rgba(255, 255, 255, 0.75)">
+                    <a href="index.html">About</a>
                     <hr/>
-                    <a href="portfolio.html">Two</a>
+                    <a href="portfolio.html">Portfolio</a>
                     <hr/>
-                    <a href="contact.html">Three</a>
+                    <a href="contact.html">Contact</a>
                 </div>
             </div>
             
         </header>
 
         <!--Main start-->
-        <main class="bg-container mt-5">
+        <main style="margin-top: 80px; margin-bottom: 80px">
         <!--######################################################################-->
-
-        <div style="overflow: hidden">
-            <div style="max-height: 500px">
-                <img src="home2.jpg" width="100%">
-            </div>
-        </div>
-
-        <br>
-
-        <div class="text-center">
-            <h4>Hello, World! Meet...</h4>
-            <h1>Matthew Farmer</h1>
-            <br>
-            <p>
-                I'm a web developer with a mind that lives out of the box and a keen eye for design. Every application that I create begins with three simple questions... 
-            </p>
-            <table class="table table-borderless" style="width: 320px; margin: 0px auto; font-size: 20px">
-                <tr>
-                    <td>①</td>
-                    <td>Why am I creating this?</td>
-                </tr>
-                <tr>
-                    <td>②</td>
-                    <td>What do I want it to do?</td>
-                </tr>
-                <tr>
-                    <td>③</td>
-                    <td>How can I make it look great?</td>
-                </tr>
-            </table>
-            <br>
-            <p>
-                These three questions form the foundation of my design process and, for the simplest project to the most complex one, guide me during web development.
-            </p>
-        </div>
-
+        
         <div class="container">
-            <div class="text-center">
-                <h1>Skills</h1>
-                <br>
-                <p>
-                    HTML. CSS. JavaScript. NodeJS. These are just a few of my skillsets that I use to create powerful yet beautiful web applications. See the complete list of my ever-expanding knowledge base and programming skillset below.
-                </p>
-            </div>
-        
-            <br>
-        
-            <div class="row">
-                <div class="col-6">
-                    <h3>Languages</h3>
+            <div class="row mb-5">
+                <div class="col-lg-5" style="max-height: 200px; overflow: hidden">
+                    <img width="100%" src="home1.jpg">
                 </div>
-                <div class="col-3">
-                    <br>
-                    <h6>HTML</h6>
-                    <h6>CSS</h6>
-                    <h6>JavaScript</h6>
-                </div>
-                <div class="col-3">
-                    <br>
-                    <h6>jQuery</h6>
-                    <h6>SQL</h6>
-                    <h6>JSON</h6>
+                <div class="col-lg-7">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci impedit veritatis molestias in, omnis sed optio id amet esse exercitationem. Dolore voluptas provident aliquam sit quos autem incidunt veritatis minima?
                 </div>
             </div>
-        
             <hr>
-            <br>
-        
-            <div class="row">
-                <div class="col-6">
-                    <h3>Frameworks</h3>
+            <div class="row mb-5">
+                <div class="col-lg-7">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptates consectetur, facere error distinctio vero eos possimus atque aspernatur assumenda laudantium, iusto beatae est? Vero laborum debitis vitae illo velit.
                 </div>
-                <div class="col-3">
-                    <br>
-                    <h6>NodeJS</h6>
-                    <h6>ExpressJS</h6>
-                </div>
-                <div class="col-3">
-                    <br>
-                    <h6>ReactJS</h6>
-                    <h6>Bootstrap</h6>
+                <div class="col-lg-5" style="max-height: 200px; overflow: hidden">
+                    <img width="100%" src="home2.jpg">
                 </div>
             </div>
-        
             <hr>
-            <br>
-        
             <div class="row">
-                <div class="col-6">
-                    <h3>Tools and Technologies</h3>
+                <div class="col-lg-5" style="max-height: 200px; overflow: hidden">
+                    <img width="100%" src="home3.jpg">
                 </div>
-                <div class="col-3">
-                    <br>
-                    <h6>MySQL</h6>
-                    <h6>MongoDB</h6>
-                    <h6>Git</h6>
-                    <h6>Handlebars</h6>
-                    <h6>EJS</h6>
-                    <h6>Cookies</h6>
-                </div>
-                <div class="col-3">
-                    <br>
-                    <h6>Firebase</h6>
-                    <h6>Heroku</h6>
-                    <h6>Visual Studio Code</h6>
-                    <h6>Atom</h6>
-                    <h6>Photoshop</h6>
-                    <h6>Lightroom</h6>
+                <div class="col-lg-7">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque obcaecati culpa reiciendis placeat id iure maxime? Facilis animi nulla ratione corrupti fuga, distinctio eaque. Harum porro nostrum laboriosam temporibus? Aspernatur.
                 </div>
             </div>
-        
         </div>
 
         <!--######################################################################-->
         </main>
 
         <!--Footer start-->
-        <footer class="navbar fixed-bottom bg-dark">
+        <footer class="fixed-bottom bg-dark text-light text-center" style="height: 50px">
+            <small style="position: relative; bottom: -20px">Copyright 2019 Matthew Farmer</small>
         </footer>
 
     </body>
